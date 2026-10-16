@@ -1,0 +1,10 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #f2f2f2; color: #363636; }
+header { background: #0E60AC; color: #fff; padding: 16px 24px; }
+header h1 { margin: 0; font-size: 24px; }
+header p { margin: 4px 0 0; }
+main { max-width: 480px; margin: 24px auto; background: #fff; padding: 24px; border-radius: 8px; }
+form { display: grid; gap: 6px; }
+label { font-weight: 600; margin-top: 10px; }
+input, select { font-size: 16px; padding: 8px; border: 1px solid #9a9a9a; border-radius: 4px; }
+button { margin-top: 18px; padding: 12px; font-size: 16px; background: #EF7220; color: #fff; border: 0; border-radius: 4px; }
+.note { font-size: 13px; color: #666; }

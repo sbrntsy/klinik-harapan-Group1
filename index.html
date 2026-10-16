@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Klinik Harapan – Patient registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Klinik Harapan</h1>
+    <p>Patient registration at the front desk</p>
+  </header>
+  <main>
+    <form id="registration">
+      <label for="rm_no">Medical record number</label>
+      <input id="rm_no" name="rm_no" placeholder="RM-000000" pattern="RM-[0-9]{6}" required>
+
+      <label for="name">Full name</label>
+      <input id="name" name="name" required>
+
+      <label for="birth_date">Brith date</label>
+      <input id="birth_date" name="birth_date" type="date" required>
+
+      <label for="sex">Sex</label>
+      <select id="sex" name="sex" required>
+        <option value="">Choose…</option>
+        <option>Female</option>
+        <option>Male</option>
+      </select>
+
+      <label for="phone">Phone number</label>
+      <input id="phone" name="phone" type="tel" placeholder="08xxxxxxxxxx">
+
+      <label for="visit_date">Visit date</label>
+      <input id="visit_date" name="visit_date" type="date" required>
+
+      <button type="submit">Register and get a queue number</button>
+    </form>
+    <p class="note">Fictional training project. Never type real patient data.</p>
+  </main>
+  <script>
+    // Demo only: nothing is saved.
+    document.getElementById('registration').addEventListener('submit', function (e) {
+      e.preventDefault();
+      alert('Registered (demo). Queue number: ' + (Math.floor(Math.random() * 90) + 10));
+    });
+  </script>
+</body>
+</html>
