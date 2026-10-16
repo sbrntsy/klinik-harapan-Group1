@@ -15,3 +15,13 @@ Double-click `index.html`; it opens in your browser. Nothing is saved: this is a
 
 ## Data
 All data in this project is fictional. Never add real patient data, passwords or keys.
+
+## Team Members
+
+- Sabrina — Project Owner / Coordinator
+- Dinar — Registration Form Developer
+- Ami — Documentation Developer
+
+### How to Open the Registration Form
+
+Open `index.html` in a web browser to access the registration form.
